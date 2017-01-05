@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { HeaderComponent } from './header.component';
+import { HeaderActionsComponent } from './actions/actions.component';
 
 @NgModule({
   declarations: [
-    HeaderComponent
+    HeaderComponent,
+    HeaderActionsComponent
   ],
   imports: [
     BrowserModule,
