@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class HeaderActionsComponent { 
   reloadButtonTitle = 'reload'
-  tagsToggleButtonTitle = 'ssss'
+  tagsToggleButtonTitle = 'tags'
   titlesToggleButtonTitle = 'titles'
 }
