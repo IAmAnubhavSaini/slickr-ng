@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HeaderActionsComponent } from './header/actions/actions.component';
+import { ImagesComponent } from './images/images.component';
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
@@ -13,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     HeaderComponent,
     HeaderActionsComponent,
+    ImagesComponent,
     FooterComponent
   ],
   imports: [
