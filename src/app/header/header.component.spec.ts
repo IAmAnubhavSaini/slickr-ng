@@ -19,7 +19,7 @@ describe('HeaderComponent', () => {
     expect(app).toBeTruthy();
   }));
 
-  it(`should have as title 'app works!'`, async(() => {
+  it(`should have as title 'Slickr'`, async(() => {
     let fixture = TestBed.createComponent(HeaderComponent);
     let app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('Slickr');
