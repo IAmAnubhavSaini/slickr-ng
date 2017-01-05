@@ -1,0 +1,12 @@
+#site-title {
+  font-size: 32px;
+  text-shadow: 1px 2px 1px #AAAAAA;
+  border-bottom: thin solid #AAAAAA;
+  padding: 10px;
+  margin: 10px;
+}
+
+#control-panel {
+  display: flex;
+  justify-content: space-between;
+}
